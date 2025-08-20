@@ -1,0 +1,32 @@
+# Binaries for various operating systems
+*.exe
+*.darwin
+*.linux
+*.windows
+
+# Compiled Go binaries
+*.test
+*.out
+
+# Dependency management
+vendor/
+go.mod.bak
+go.sum.bak
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Test cache
+.test_cache/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
