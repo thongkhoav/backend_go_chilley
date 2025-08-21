@@ -63,3 +63,13 @@ Before running, make sure you have installed:
    ```bash
    docker run -p 8080:8080 --env-file .env go-api
    ```
+
+---
+
+## 📂 Project Structure
+
+- `main.go`: Defines the server entry point
+- `Dockerfile`: Used to build the Docker image
+- `storage/`: Contains in-memory data storage
+- `models/`: Defines the data models
+- `handlers/`: Handles API routes

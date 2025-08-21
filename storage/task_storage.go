@@ -5,7 +5,7 @@ import (
 	"todo-backend/models"
 )
 
-var tasks []models.Task
+var tasks []models.Task = []models.Task{}
 var nextID = 1
 
 func GetTasks() []models.Task {
